@@ -18,6 +18,9 @@ body{
   width: 98%;
   transition: 0.3s ease;
 }
+.book-list:hover .konten{
+  padding-left: 10px;
+}
 .sidelist:hover{
   background-color: #f8f8f8;
 }
