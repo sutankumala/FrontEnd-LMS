@@ -1,0 +1,23 @@
+body{
+  background-attachment: fixed;
+  background-image: url('../images/bgs.png');
+  background-size: cover;background-position: center;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #42A5F5;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: blue;
+}
+.book-list:hover{
+  cursor: pointer;
+  width: 98%;
+  transition: 0.3s ease;
+}
+.sidelist:hover{
+  background-color: #f8f8f8;
+}
