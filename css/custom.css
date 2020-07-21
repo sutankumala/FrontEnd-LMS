@@ -24,3 +24,33 @@ body{
 .sidelist:hover{
   background-color: #f8f8f8;
 }
+.upload-btn-wrapper-cstm {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+}
+.btn-cstm {
+  border: 2px solid red;
+  color: red;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.upload-btn-wrapper-cstm:hover .btn-cstm {
+  border: 2px solid red;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+.upload-btn-wrapper-cstm input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
